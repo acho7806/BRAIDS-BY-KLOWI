@@ -173,13 +173,16 @@ p {
   background: #fff;
 }
 .last{
- display: flex;
-  flex-direction: row;
-  gap: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 .contactsa{
-  padding: 5px;
-  margin: 5px auto;
+  gap: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  margin: 10px auto;
 }
 .contact-list li {
   margin-bottom: 6px;
@@ -227,6 +230,13 @@ footer p {
   margin: 0;
 }
 @media (max-width: 650px) {
+  .contactsa {
+    padding: 15px; 
+    margin: 15px auto;
+    flex-wrap: wrap;              
+    justify-content: center;
+    text-align: center;
+  }
   header {
     flex-wrap: wrap;              
     justify-content: center;
@@ -237,4 +247,5 @@ footer p {
     justify-content: center;
     margin-top: 8px;
   }
+
 }
