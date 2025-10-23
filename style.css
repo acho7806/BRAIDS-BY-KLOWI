@@ -114,8 +114,7 @@ h1, h2, h3, h4 {
   min-width: 280px;
 }
 .exp-about video {
-  width: 500px;
-  height: 400px;
+  width: 100%;
   border: 2px solid var(--kindlight);
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -229,7 +228,7 @@ footer p {
   color: #ccc;
   margin: 0;
 }
-@media (max-width: 650px) {
+@media (min-width: 480px){
   .con{
     flex-direction: column;
   }
@@ -247,3 +246,4 @@ footer p {
     margin-top: 8px;
   }
 }
+
